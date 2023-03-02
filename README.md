@@ -1,9 +1,11 @@
-# ICS635-covid-kaggle
-Repository for my entry into the ICS635 covid kaggle competition
+# Covid risk classifier
+Repository for my entry into the ICS635 covid kaggle competition (https://www.kaggle.com/c/covid-19-risk-2022).
 
-The classifier in this repository won 3rd place in the kaggle competition out of ~50 student.
+The classifier determines the risk of death given information about the patient.
 
-procedd_data_final.ipynb processes the data provided
-ensemble_AB_op.ipynb optimizes, trains, and tests the classifier and creates a submission file
+##procedd_data_final.ipynb
+A notebook for cleaning and processing the provided data.
 
-the competition and data can be viewed here: https://www.kaggle.com/c/covid-19-risk-2022
+##BDT_classifier.ipynb
+
+A notebook that optimizes, trains, and tests A boosted decision tree  classifier and creates a submission file for the competition.
