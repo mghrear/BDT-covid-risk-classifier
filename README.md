@@ -3,9 +3,9 @@ Repository for my entry into the ICS635 covid kaggle competition (https://www.ka
 
 The classifier determines the risk of death given information about the patient.
 
-##procedd_data_final.ipynb
+## process_data.ipynb
 A notebook for cleaning and processing the provided data.
 
-##BDT_classifier.ipynb
+# #BDT_classifier.ipynb
 
 A notebook that optimizes, trains, and tests A boosted decision tree  classifier and creates a submission file for the competition.
